@@ -10,4 +10,5 @@ $.getScript('../../karuta/js/resources/Type_Get_Get_Resource.js');
 $.getScript('../../karuta/js/resources/Type_URL.js');
 $.getScript('../../karuta/js/resources/Type_Item.js');
 $.getScript('../../karuta/js/resources/Type_Video.js');
+$.getScript('../../karuta/js/resources/Type_Audio.js');
 $.getScript('../../karuta/js/resources/Type_CompetencyEvaluation.js');

@@ -1090,6 +1090,7 @@ UIFactory["Node"].buttons = function(node,type,langcode,inline,depth,edit)
 		html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','URL','URL',databack,callback,param2,param3,param4,freenode);
 		html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Calendar','Calendar',databack,callback,param2,param3,param4,freenode);
 		html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Image','Image',databack,callback,param2,param3,param4,freenode);
+		html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Audio','Audio',databack,callback,param2,param3,param4,freenode);
 		html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Video','Video',databack,callback,param2,param3,param4,freenode);
 		html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Oembed','Oembed',databack,callback,param2,param3,param4,freenode);
 		if (!freenode) {
