@@ -125,18 +125,18 @@
 				<fileid lang="en" ></fileid>
 			</asmResource>
 		</asmContext>
-		//===================== Image =======================
+		//===================== Audio =======================
 		<asmContext xsi_type="">
 			<metadata-wad seenoderoles="all" />
 			<metadata-epm width="100"/>
-			<metadata multilingual-node="Y" semantictag ="Image" sharedNode="N" sharedNodeResource="N" sharedResource="N" />
+			<metadata multilingual-node="Y" semantictag ="Audio" sharedNode="N" sharedNodeResource="N" sharedResource="N" />
 			<asmResource xsi_type="nodeRes">
 				<code />
 				<label lang="fr" />
 				<label lang="en" />
 			</asmResource>
 			<asmResource xsi_type="context" />
-			<asmResource xsi_type="Image">
+			<asmResource xsi_type="Audio">
 				<filename lang="fr" />
 				<size lang="fr" />
 				<type lang="fr" />
