@@ -811,7 +811,7 @@ UIFactory["Node"].displayComments = function(destid,node,type,langcode)
 		var text = "";
 		if (type==null)
 			type = 'default';
-		text = $(UICom.structure['ui'][uuid].context_text_node[langcode]).html();
+		text = $(UICom.structure['ui'][uuid].context_text_node[langcode]).text();
 		html += "<div>"+text+"</div>";
 		$("#"+destid).append($(html));
 	}
@@ -837,7 +837,7 @@ UIFactory["Node"].displayCommentsEditor = function(destid,node,type,langcode)
 		var text = "";
 		if (type==null)
 			type = 'default';
-		text = $(UICom.structure['ui'][uuid].context_text_node[langcode]).html();
+		text = $(UICom.structure['ui'][uuid].context_text_node[langcode]).text();
 		html += "<h4>"+karutaStr[LANG]['comments']+"</h4>";
 		html += "<div id='div_"+uuid+"'><textarea id='"+uuid+"_edit_comment' style='height:200px'>"+text+"</textarea></div>";
 		$("#"+destid).append($(html));
@@ -1098,6 +1098,7 @@ UIFactory["Node"].buttons = function(node,type,langcode,inline,depth,edit)
 			html += "<hr>";
 			html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Item','Item',databack,callback,param2,param3,param4,freenode);
 			html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Get_Resource','Get_Resource',databack,callback,param2,param3,param4,freenode);
+			html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Get_Double_Resource','Get_Double_Resource',databack,callback,param2,param3,param4,freenode);
 			html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Get_Get_Resource','Get_Get_Resource',databack,callback,param2,param3,param4,freenode);
 			html += UIFactory["Node"].getItemMenu(node.id,'_karuta_resources_','Proxy','Proxy',databack,callback,param2,param3,param4,freenode);
 //			html += UIFactory["Node"].getItemMenu(node.id,'_zc_resources_','Person','Person',databack,callback,param2,param3,param4,freenode);

@@ -235,6 +235,25 @@
 				<text lang="en"/>
 			</asmResource>
 		</asmContext>
+		//===================== Get_Double_Resource =======================
+		<asmContext xsi_type="">
+			<metadata-wad seenoderoles="all" />
+			<metadata-epm />
+			<metadata multilingual-node="Y" semantictag ="Get_Double_Resource" sharedNode="N" sharedNodeResource="N" sharedResource="N" />
+			<asmResource xsi_type="nodeRes">
+				<code />
+				<label lang="fr" />
+				<label lang="en" />
+			</asmResource>
+			<asmResource xsi_type="context" />
+			<asmResource xsi_type="Get_Double_Resource">
+				<value_code />
+				<code />
+				<value_label />
+				<label lang="fr" />
+				<label lang="en" />
+			</asmResource>
+		</asmContext>
 		//===================== Get_Resource =======================
 		<asmContext xsi_type="">
 			<metadata-wad seenoderoles="all" />
