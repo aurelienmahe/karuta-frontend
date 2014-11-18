@@ -247,11 +247,14 @@
 			</asmResource>
 			<asmResource xsi_type="context" />
 			<asmResource xsi_type="Get_Double_Resource">
-				<value_code />
-				<code />
-				<value_label />
-				<label lang="fr" />
-				<label lang="en" />
+				<value1 />
+				<code1 />				
+				<label1 lang="fr" />
+				<label1 lang="en" />
+				<value2 />
+				<code2 />				
+				<label2 lang="fr" />
+				<label2 lang="en" />				
 			</asmResource>
 		</asmContext>
 		//===================== Get_Resource =======================
